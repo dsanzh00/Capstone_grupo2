@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript">
+        function alerta() {
+            alert('Ya te vale macho...');
+        }
+    </script>
+</head>
+
+<body class="bodyLogin">
+    <div class="fondo" width="50%">
+        <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" width="15%"
+            alt="spotifyLogo">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="login">
+        <form action="/home" method="POST">
+            <h2>Username<br></h2>
+            <input type="text" name="username" placeholder="Username or email address" size="40">
+
+            <br>
+            <br>
+            <h2>Password<br></h2>
+
+            <input type="password" name="password" placeholder="Password" size="40">
+
+            <br>
+            <br>
+            <button type="submit" class="btn btn-success">Iniciar Sesión</button>
+            <br>
+            <br>
+            <section>
+                <a onclick="alerta();" style="color:#4BA734;">¿Has olvidado tu contraseña?</a>
+            </section>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
